@@ -15,7 +15,7 @@ def curve():
 # Defining method to draw a full heart 
 def heart(): 
 
-	# Set the fill color to red 
+	# Set the fill color to a faded pink
 	pen.fillcolor('antiquewhite') 
 
 	# Start filling the color 
@@ -50,13 +50,13 @@ def txt():
 	# Move the turtle to the ground 
 	pen.down() 
 
-	# Set the text color to lightgreen 
+	# Set the text color to red (may look like maroon with pink backdrop)
 	pen.color('red') 
 
 	# Write the specified text in 
-	# specified font style and size 
+	# specified font style and size...make it cuteee!!!
 	pen.write("I love you<33", font=( 
-	"Italics", 18, "bold")) 
+	"Times New Roman", 12, "bold")) 
 
 
 # Draw a heart 
